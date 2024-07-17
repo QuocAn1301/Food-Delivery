@@ -4,6 +4,7 @@ import { assets } from '../../assets/assets'
 
 const Navbar = () => {
     const [menu, setMenu] = useState("home");
+    //gán setMenu cho menu để rồi xuống dưới check coi có active không nếu có thì thực hiện css
     return (
         <div className='navbar'>
             <img src={assets.logo} alt="" className="logo" />

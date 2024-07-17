@@ -1,5 +1,5 @@
 .navbar{
-    padding: 20px 110px;    
+    padding: 20px 160px;    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,4 +41,17 @@
 }
 .navbar li{
     cursor: pointer;
+}
+.navbar-search-icon
+{
+    position: relative;
+}
+.navbar-seach-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: 16px;
+    right: 292px;
 }
